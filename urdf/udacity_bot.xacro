@@ -2,7 +2,10 @@
 
 <robot name="my_udacity_bot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
+  <!-- Load in the plugins for the drive wheels and the camera and ray-laser sensor -->
   <xacro:include filename="$(find map_my_world)/urdf/udacity_bot.gazebo"/>
+
+  <!-- Joint descriptions. Use robot_footprint as a base link -->
   <link name="robot_footprint"/>
 
   <joint name="robot_footprint_joint" type="fixed">
@@ -91,6 +94,8 @@
   </joint>
 
 
+  <!-- Link descriptions -->
+  
   <link name='chassis'>
 
     <pose> 0 0 0.230 0 0 0</pose>
