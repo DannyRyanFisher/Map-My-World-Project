@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <launch>
-
+  
+  <!-- load the custom robot description -->
   <include file="$(find map_my_world)/launch/robot_description.launch"/>
 
+  <!-- Initialise parameters -->
   <arg name="world" default="empty"/>
   <arg name="paused" default="false"/>
   <arg name="use_sim_time" default="true"/>
@@ -11,6 +13,7 @@
   <arg name="headless" default="false"/>
   <arg name="debug" default ="false"/>
   
+  <!-- Launch the custom world 'other' and set its parameters -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="world_name" value="$(find map_my_world)/worlds/other.world"/>
     <arg name="paused" value="$(arg paused)"/>
