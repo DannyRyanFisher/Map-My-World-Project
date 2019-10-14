@@ -9,14 +9,18 @@ Image 4 contains a screenshot of how the features of the environment were captur
 ![RTab-Map Database Visualisation of Gazebo Simulation](/photos/third-rviz.jpeg)
 *Image 1: RTab-Map Database Visualisation of Gazebo Simulation*
 
+
 ![Gazebo Simulation of a Kitchen](/photos/kitchen-world.png)
 *Image 2: Gazebo Simulation of a Kitchen*
+
 
 ![2D Occupancy Grid generated from robot](/photos/third-occ-grid.jpeg)
 *Image 3: 2D Occupancy Grid generated from robot*
 
+
 ![Loop Closures](/photos/Re-submit-12-loop-closures.jpeg)
-*Image 3: Features (yellow circles) and loop closures (purple)*
+
+*Image 4: Features (yellow circles) and loop closures (purple)*
 
 ## Before you run the code
 
@@ -66,5 +70,5 @@ Image 4 contains a screenshot of how the features of the environment were captur
 This then enables the following setup (Image 5).
 
 ![All launch files running](/photos/map-my-world-launched.png)
-* Image 5: Output from launch files *
+*Image 5: Output from launch files*
 
