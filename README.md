@@ -59,7 +59,7 @@ Image 4 contains a screenshot of how the features of the environment were captur
 
     chmod u+x ~/catkin_ws/src/map_my_world/scripts/teleop
 
-## How to run code
+## Running the code
 
     source ~/catkin_ws/devel/setup.bash
 
