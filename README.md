@@ -3,11 +3,20 @@ Using the RTAB-Map database to generate a 3D model of a ROS Gazebo environment
 
 # Description
 
-By manually driving the robot within the environment (using the keyboard), the robot is able to generate an RTab-Map database such as the one in the Image XXX. Furthermore through the RTab-Map database-Viewer the 2D graph and occupancy grid maps are generated in Image xxx and xxx. 
-The last Image (xxx) contains a screenshot of how the features of the environment were captured to provide the map generation with the imperative loop closures. 
+By manually driving the robot within the environment (using the keyboard), the robot is able to generate an RTab-Map database such as the one in the Image 1. Furthermore through the RTab-Map database-Viewer the 2D graph and occupancy grid maps are generated in Image 2 and 3. 
+Image 4 contains a screenshot of how the features of the environment were captured to provide the map generation with the imperative loop closures. 
+
 ![RTab-Map Database Visualisation of Gazebo Simulation](/photos/third-rviz.jpeg)
+*Image 1: RTab-Map Database Visualisation of Gazebo Simulation*
+
 ![Gazebo Simulation of a Kitchen](/photos/kitchen-world.png)
+*Image 2: Gazebo Simulation of a Kitchen*
+
 ![2D Occupancy Grid generated from robot](/photos/third-occ-grid.jpeg)
+*Image 3: 2D Occupancy Grid generated from robot*
+
+![Loop Closures](/photos/Re-submit-12-loop-closures.jpeg)
+*Image 3: Features (yellow circles) and loop closures (purple)*
 
 ## Before you run the code
 
@@ -54,7 +63,8 @@ The last Image (xxx) contains a screenshot of how the features of the environmen
     roslaunch map_my_world small-world.launch
     roslaunch map_my_world mapping.launch
 
-This then enables the following setup (Image xxx).
+This then enables the following setup (Image 5).
 
 ![All launch files running](/photos/map-my-world-launched.png)
+* Image 5: Output from launch files *
 
